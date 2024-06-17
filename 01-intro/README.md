@@ -99,6 +99,7 @@ Running ElasticSearch:
 
 ```bash
 docker run -it \
+    --rm \
     --name elasticsearch \
     -p 9200:9200 \
     -p 9300:9300 \
@@ -155,4 +156,4 @@ Query:
 # Notes
 
 * Replace it with a link
-* Did you take notes? Add them above this line
+* Did you take notes? Add them above this line (Send a PR with *links* to your notes)
